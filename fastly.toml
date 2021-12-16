@@ -1,0 +1,13 @@
+# This file describes a Fastly Compute@Edge package. To learn more visit:
+# https://developer.fastly.com/reference/fastly-toml/
+
+authors = ["jrainville+ecp@fastly.com"]
+description = "JS showing content stitching"
+language = "javascript"
+manifest_version = 2
+name = "stitch-js"
+service_id = "41CI1H4RVzX84yoaNJtuir"
+
+[local_server.backends]
+    [local_server.backends.shastarain_backend]
+        url = "http://104.198.6.153/"
